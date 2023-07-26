@@ -1,0 +1,58 @@
+@import "colours";
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: var(--background-colour);
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  height: 75px;
+
+  font-family: "Helvetica Neue", "Verdana", sans-serif;
+  font-weight: 250;
+  font-size: 30px;
+}
+
+.navbar-item {
+  padding: 16px 20px 20px;
+  text-align: center;
+
+  color: var(--text-colour) !important;
+  text-decoration: none;
+
+  background-color: var(--purple-1);
+}
+
+.navbar-spacer {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.navbar-end {
+
+}
+
+.navbar-hover:hover {
+  background-color: var(--purple-2);
+}
+
+#navbar-logo-box {
+  padding: 10px 10px;
+  z-index: 0;
+}
+#navbar-logo {
+  height: 130px;
+}
+
+#navbar-title {
+  padding-left: 10px;
+  font-weight: 400;
+}

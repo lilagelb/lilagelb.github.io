@@ -1,0 +1,21 @@
+<div class="navbar-container">
+    <nav class="navbar">
+        <a id="navbar-logo-box" class="navbar-item" href="/">
+            <img id="navbar-logo" src="/assets/images/lilagelb.png" alt="lilagelb logo">
+        </a>
+        <a id="navbar-title" class="navbar-item" href="/">
+            lilagelb
+        </a>
+
+        {%  for item in site.data.navbar %}
+            <a href="{{ item.link }}" class="navbar-item navbar-hover">
+                {{ item.name }}
+            </a>
+        {% endfor %}
+
+        <a class="navbar-spacer navbar-item"> </a>
+        <a class="navbar-end">
+            <img src="/assets/images/navbar_end.png" style="height:75px">
+        </a>
+    </nav>
+</div>

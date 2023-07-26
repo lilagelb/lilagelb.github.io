@@ -1,0 +1,31 @@
+@import "colours";
+
+.post-preview {
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--subsection-colour);
+}
+
+.post-preview a {
+  color: inherit;
+}
+.post-preview a:hover {
+  color: var(--purple-3)
+}
+
+.post-image {
+  margin: 0;
+  border-radius: 10px;
+  padding: 20px 20px 10px 20px;
+  background-color: var(--subsection-colour);
+  text-align: center;
+}
+.post-image img {
+  height: 300px;
+  border-radius: 5px;
+}
+.post-image p {
+  font-style: italic;
+  font-size: 15px;
+}
